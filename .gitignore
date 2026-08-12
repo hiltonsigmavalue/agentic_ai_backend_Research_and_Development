@@ -1,0 +1,49 @@
+# Environments
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+venv/
+
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Databases
+*.sqlite
+*.sqlite3
+comparable_agent.log
+run_logs
+comparable_agent.log
+*.log
+data/cache/
+
+# Spatial Insight generated session and output files
+database/visualization_agent/spatial_insight/sessions/
+database/visualization_agent/spatial_insight/outputs/
+
+
+# User-uploaded files
+storage/uploads/
+
+
+# Valuations
+valuation_listing_search_audit/
+
+# Scraped debug dumps
+scraped_dumps/
